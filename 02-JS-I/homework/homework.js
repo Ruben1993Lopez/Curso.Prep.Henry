@@ -60,10 +60,11 @@ function sonIguales(x, y) {
   // Devuelve "true" si "x" e "y" son iguales
   // De lo contrario, devuelve "false"
   // Tu código:
-  if (x===Y) {
-   return true; 
+  if (x === y) {
+   return true  
   }
-   else {false;
+   else 
+   { return false
   }
 }
 
@@ -71,9 +72,9 @@ function tienenMismaLongitud(str1, str2) {
   // Devuelve "true" si las dos strings tienen la misma longitud
   // De lo contrario, devuelve "false"
   // Tu código:
-  if (length.str1 === length.str2 ) {
-    return true;
-  } else {return false ;
+   if (str1.length === str2.length ) {
+    return true
+  } else {return false 
   }
   }
 
@@ -82,18 +83,18 @@ function menosQueNoventa(num) {
   // De lo contrario, devuelve "false"
   // Tu código:
   if  (num < 90) {
-    return true;
-
-  } false;
+    return true
+  }else 
+  {return false}
 }
 
 function mayorQueCincuenta(num) {
   // Devuelve "true" si el argumento de la función "num" es mayor que cincuenta
   // De lo contrario, devuelve "false"
   // Tu código:
-  if (num >50) {
-    return true;
-  } false;
+  if (num > 50) {
+    return true
+  } else {return false}
 }
 
 function obtenerResto(x, y) {
@@ -106,7 +107,7 @@ function esPar(num) {
   // Devuelve "true" si "num" es par
   // De lo contrario, devuelve "false"
   // Tu código:
-  if (num%2 ===0){
+  if (num%2 === 0){
     return true
   }else {
     return false
@@ -117,7 +118,7 @@ function esImpar(num) {
   // Devuelve "true" si "num" es impar
   // De lo contrario, devuelve "false"
   // Tu código:
-  if (num%2===1){
+  if (num%2 === 1){
     return true
   }else {
     return false
@@ -186,7 +187,7 @@ function combinarNombres(nombre, apellido) {
   // Devuelve "nombre" y "apellido" combinados en una string y separados por un espacio.
   // Ejemplo: "Soy", "Henry" -> "Soy Henry"
   // Tu código:
-  return nombre + " "+ apellido;
+  return nombre + " " + apellido;
 }
 
 function obtenerSaludo(nombre) {
@@ -238,10 +239,10 @@ function esVocal(letra){
    letra === "e" ||
    letra === "i" ||
    letra === "o" ||
-   letra === "u" ||
-   )
+   letra === "u" 
+   ) 
    {
-     return Es Vocal 
+     return  'Es vocal'
    } else {
      return "Dato incorrecto"
    }
